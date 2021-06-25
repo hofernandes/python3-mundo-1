@@ -1,0 +1,10 @@
+# Dissecando uma Variável
+n=input('Escreva algo: ')
+print ('O tipo primitivo é: {}'.format(type(n)))
+print('Esta string é número? : {}'.format(n.isnumeric()))
+print('Esta string são caracteres? :{}'.format(n.isalpha()))
+print('Esta string são números ou caracteres? {}'.format(n.isalnum()))
+print('Esra string são maicuscas? {}'.format(n.isupper()))
+print('Esta string são minusculas? {}'.format(n.islower()))
+print ('Só tem espaços? {}'.format(n.isspace()))
+print ('Esta capitalizada? {n.istitle}'.format(n.istitle()))
