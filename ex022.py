@@ -6,4 +6,6 @@ print(nome.upper())
 print(nome.lower())
 nome2=(nome.split())
 nome3=(''.join(nome2))
-print(f'O nome {nome} tem {nome3.count('')} caracteres')
+nome4=nome3.count('')
+print(f'O nome {nome} tem {nome4} caracteres')
+
